@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(49, 49, 196);
+}
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    text-shadow: 20px 20px 20px black;
+}
+h1:hover{
+    color: aqua;
+}
+
+.pre{
+    background-color: rgb(100, 150, 50);
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+      width: 120px;
+  height: 20px;
+  border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(11, 35, 93, 0.6);
+    text-align: center;
+}
+.pre:hover{
+    background-color: green;
+}
+
+.exp{
+  background-color: rgb(100, 150, 50);
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  width: 120px;
+  height: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(11, 35, 93, 0.6);
+  text-align: center;
+}
+.exp:hover{
+    background-color: green;
+}
+
+.foto{
+    background-color: rgb(100, 150, 50);
+    text-decoration: none;
+    border: 2px solid black;
+    color: black;
+    width: 120px;
+  height: 20px;
+  border-radius: 8px;
+box-shadow: 0 4px 8px 0 rgba(11, 35, 93, 0.6);
+text-align: center;
+
+}
+.foto:hover{
+    background-color: green;
+}
+
+.tabla{
+   background-color: rgb(100, 150, 50);
+   text-decoration: none;
+   border: 2px solid black;
+   color: black;
+     width: 120px;
+  height: 20px;
+  border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(11, 35, 93, 0.6);
+text-align: center;
+}
+.tabla:hover{
+    background-color: green;
+}
+nav ul{
+    display: flex;
+    gap: 3px;
+    list-style: none;
+    padding-left: 0;
+
+}
