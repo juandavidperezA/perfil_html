@@ -1,19 +1,26 @@
 body{
     background-color: rgb(49, 49, 196);
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: auto;
+    width: auto;
 }
 
 
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blueviolet;
-    text-shadow: 20px 20px 20px black;
+    text-shadow: 5px 5px 10px black;
     -webkit-text-stroke: 2px black;
-    width: 400px;
+    width: auto;
     height: 50px;
-    
+    background: linear-gradient(45deg, red,orange, yellow);
+    -webkit-background-clip: text;
+    color: transparent;
+
 }
 h1:hover{
-    color: aqua;
+    color: rgb(78, 30, 199)
 }
 
 .pre{
@@ -29,14 +36,18 @@ h1:hover{
 }
 .pre:hover{
     background-color: green;
+    scale: 1.2;
 }
-        
+.pre:active{
+    scale: 0.8;
+}
+
 .exp{
   background-color: rgb(100, 150, 50);
   text-decoration: none;
   border: 2px solid black;
   color: black;
-  width: 120px;
+  width: auto;
   height: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px 0 rgba(11, 35, 93, 0.6);
@@ -44,6 +55,11 @@ h1:hover{
 }
 .exp:hover{
     background-color: green;
+    scale: 1.2;
+}
+
+.exp:active{
+    scale:0.8;
 }
 
 .foto{
@@ -60,6 +76,11 @@ text-align: center;
 }
 .foto:hover{
     background-color: green;
+    scale: 1.2;
+}
+
+.foto:active{
+    scale: 0.8;
 }
 
 .tabla{
@@ -75,6 +96,11 @@ text-align: center;
 }
 .tabla:hover{
     background-color: green;
+    scale: 1.2;
+}
+
+.tabla:active{
+    scale: 0.8;
 }
 a{
     text-decoration: none;
@@ -100,6 +126,7 @@ nav ul{
 
 .t1:hover{
     background-color: rgb(48, 70, 135);
+    scale: 1.2;
 }
 .t1a{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -125,6 +152,7 @@ nav ul{
 }
 .t2:hover{
     background-color: rgb(48, 70, 135);
+    scale: 1.2;
 }
 
 .fot{
@@ -146,6 +174,7 @@ nav ul{
 
 .t3:hover{
     background-color: rgb(48, 70, 135);
+    scale: 1.2;
 }
 
 .t4{
@@ -161,6 +190,7 @@ nav ul{
 
 .t4:hover{
     background-color: rgb(48, 70, 135);
+    scale: 1.2;
 }
 
 .l1{
@@ -168,4 +198,21 @@ nav ul{
 }
 .l2{
     color: white;
+}
+table{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td{
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    background-color: royalblue;
+    color: yellow;
 }
