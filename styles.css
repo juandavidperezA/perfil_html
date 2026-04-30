@@ -7,7 +7,10 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blueviolet;
     text-shadow: 20px 20px 20px black;
-     -webkit-text-stroke: 2px black;
+    -webkit-text-stroke: 2px black;
+    width: 400px;
+    height: 50px;
+    
 }
 h1:hover{
     color: aqua;
@@ -27,7 +30,7 @@ h1:hover{
 .pre:hover{
     background-color: green;
 }
-
+        
 .exp{
   background-color: rgb(100, 150, 50);
   text-decoration: none;
@@ -146,7 +149,7 @@ nav ul{
 }
 
 .t4{
-       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: royalblue;
     color: yellow;
     text-align: center;
@@ -154,7 +157,10 @@ nav ul{
     max-width: 300px;
     border-radius: 10px;
     box-shadow: 4px 8px 5px 3px rgba(132, 132, 14, 0.5);
+}
 
+.t4:hover{
+    background-color: rgb(48, 70, 135);
 }
 
 .l1{
