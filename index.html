@@ -42,12 +42,11 @@
         <section id="presentacion">
             <h2 class="t1">presentacion</h2>
             <div class="t1a">
-            <p>hola mucho gusto antes que nada gracias por visitar este perfil espero que sea de tu
+            <p><strong>hola mucho gusto antes que nada gracias por visitar este perfil espero que sea de tu
                 agrado mi nombre es juan david y soy un estudiante de programacion en campusland de
                 bucaramanga, tengo 20 años y me gusta mucho la programacion, espero aprender mucho en
                 este curso y poder aplicar mis conocimientos en el futuro para crear proyectos que sean 
-                utiles a la sociedad y a mi mismo.
-            </p>
+                utiles a la sociedad y a mi mismo.</strong></p>
             </div>
             <h4>aqui les dejo algunos de mis gustos</h4>
             <a href="gustos.html"><button>gustos</button></a>
@@ -57,11 +56,12 @@
 
         <section id="experiencias">
             <h2 class="t2">Mis experiencias</h2>
-
-            <p>desde pequeño me ha gustado resolver problemas y crear soluciones, por eso me
+            <div class="t2a">
+            <p><strong>desde pequeño me ha gustado resolver problemas y crear soluciones, por eso me
             he dedicado a aprender programacion. he trabajado en proyectos individuales y en equipo,
              y siempre trato de mejorar mis habilidades y conocimientos destacando en cada una de las
-             habilidades que desarrolle.</p>
+             habilidades que desarrolle. </strong></p>
+             </div>
              <h4>aqui les dejo algunos de mis aprendizajes</h4>
              <button><a href="aprendizaje.html"></a>aprendizaje</button>
         </section>
@@ -70,11 +70,12 @@
 
         <section id="foto">
             <h2 class="t3">Foto</h2>
+            <br><br>
             <img src="https://i.pinimg.com/736x/72/a4/ae/72a4ae1fbce0499c1ce9fab258b6d449.jpg" alt="Mi foto" width="320px" height="320px" class="fot" />
         </section>
-
+        <br>
         <hr>
-        
+        <br>
         <section id="tabla">
             <h2 class="t4">mi tabla</h2>
             <table border="1">
@@ -96,6 +97,7 @@
 
     <hr>
 
+
     <footer>
         <p>gracias por estar en este perfil te agradesco si puedes seguirme en mis redes sociales: </p>
         <ul>
@@ -103,7 +105,49 @@
             <li><a href="https://github.com/juandavidperezA" target="_blank" class="l2">GitHub</a></li>
         </ul>
     </footer>
+    <br>
 
+    <hr>
 
+    <br>  
+
+    <h3>espero que que  te guste te agradeceria si pudieras poner una calificacion a la pagina (aun no guarda datos
+        pero puedes mandarme una captura) gracias 
+    </h3>
+    <form>
+        <label>nombre completo:
+            <br>
+            <input type="text" name="nombre" placeholder="ingresa tu nombre completo" required>
+        </label>
+        </form>
+<br>
+    <label > ingresa tu correo electronico:
+        <br>
+        <input type="email" name="correo" placeholder="ingresa tu correo" required>
+    </label>
+    <br>
+    <p>ingresa tu calificacion:</p>
+    <div class="calificacion">
+
+        <input type="radio" id="e1" name="calificacion" >
+        <label for="e1">&#9733;</label>
+
+        <input type="radio" id="e2"  name="calificacion" >
+        <label for="e2">&#9733;</label>
+
+        <input type="radio" id="e3" name="calificacion" >
+        <label for="e3">&#9733;</label>
+
+        <input type="radio" id="e4" name="calificacion" >
+        <label for="e4">&#9733;</label>
+ 
+        <input type="radio" id="e5" name="calificacion" >
+        <label for="e5">&#9733;</label>
+    </div>
+    <br><br>
+
+    <button type="submit" class="enviar">enviar datos</button>
+    <br>
+</form>
   </body>
 </html>
