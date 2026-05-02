@@ -224,10 +224,18 @@ nav ul{
 .l1{
     color: red;
     text-shadow: 0px 0px 6px rgb(0, 0, 0);
+    display: inline-block;
+}
+.l1:hover{
+    transform: scale(1.2);
 }
 .l2{
     color: grey;
     text-shadow: 0px 0px 6px rgb(0, 0, 0);
+    display: inline-block;
+}
+.l2:hover{
+    transform: scale(1.2);
 }
 table{
     width: 80%;
@@ -363,7 +371,15 @@ th{
     text-decoration: none;
 }
 
+.youtube:hover{
+    transform: scale(1.2);
+}
+
 .github{
     width: 20px;
     height: 15px;
+}
+
+.github:hover{
+    transform: scale(1.2);
 }
